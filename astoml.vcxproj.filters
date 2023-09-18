@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\CDetour\asm\asm.c">
+      <Filter>detour</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CDetour\libudis86\decode.c">
+      <Filter>detour</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CDetour\libudis86\itab.c">
+      <Filter>detour</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CDetour\libudis86\udis86.c">
+      <Filter>detour</Filter>
+    </ClCompile>
+    <ClCompile Include="src\source\CASBaseObject.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\source\angelscript.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CDetour\detours.cpp">
+      <Filter>detour</Filter>
+    </ClCompile>
+    <ClCompile Include="src\source\dllapi.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\source\dllmain.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\source\engine_api.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\source\h_export.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\source\meta_api.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\source\sdk_util.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\source\CASTomlNode.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\header\angelscript.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\angelscript\angelscriptlib.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\header\dlldef.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\header\enginedef.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\header\info_name.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\header\signatures.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\header\utility.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\header\CASBaseObject.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\header\CASTomlNode.h">
+      <Filter>header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="detour">
+      <UniqueIdentifier>{fddff255-5a97-48a6-a224-cb3e937bc113}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{d7b3b3df-8908-4ee6-80a3-bae2398acb84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header">
+      <UniqueIdentifier>{0ddcc7f8-d879-4231-afa4-16277a2743b8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
